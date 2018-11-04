@@ -11,7 +11,7 @@ namespace ConsoleApp1
             int i = 0,
                 n=0;
             Console.WriteLine("Задание 3:\nВывести информацию о памяти циклически с остановками");
-            Console.WriteLine("Сколько секунд будем спать?");
+            Console.WriteLine("тааааак?");
                 n = Convert.ToInt32(Console.ReadLine());
             do
             {
@@ -20,7 +20,7 @@ namespace ConsoleApp1
                 Console.WriteLine("Занятая память память {0}", (unit1.TotalMemory() - unit1.BusyMemory()) / 1024);
                 Thread.Sleep(n*100);
                 i++;
-            } while (i < 5);
+            } while (i < 6);
             Console.ReadKey();
         }
         
